@@ -45,7 +45,7 @@ export default function MovieDetail({ movie, onClose, isFavorite, onToggleFavori
             onClick={() => onToggleFavorite(movie.id)}
             className="bg-[#171a20] hover:bg-[#222630] border border-[#2b303c] text-[#dcdad5] px-4 py-2.5 text-xs font-mono uppercase tracking-wider cursor-pointer transition-colors"
           >
-            {isFavorite ? "Añadida ❤️" : "Añadir a Favorita 🤍"}
+            {isFavorite ? "Añadida " : "Añadir a Favorita "}
           </button>
         </div>
       </div>

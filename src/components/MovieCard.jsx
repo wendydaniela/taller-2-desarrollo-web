@@ -69,7 +69,7 @@ export default function MovieCard({ movie, isFavorite, onToggleFavorite, onSelec
             onClick={() => onSelectMovie(movie.id)}
             className="w-full bg-[#171a20] hover:bg-[#222630] text-[#dcdad5] border border-[#2b303c] text-xs py-2.5 font-mono uppercase tracking-widest cursor-pointer transition-colors"
           >
-            Ficha Técnica
+            Ver
           </button>
         </div>
       </div>
